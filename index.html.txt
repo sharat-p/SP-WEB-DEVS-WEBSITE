@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SV DEV WEBSITE</title>
+  <meta name="description" content="SV DEV WEBSITE — projects, services, and digital content." />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #0b1220;
+      color: #e6edf3;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #101a2e;
+      padding: 20px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #4f8cff;
+    }
+
+    nav a {
+      color: #e6edf3;
+      text-decoration: none;
+      margin-left: 22px;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      color: #4f8cff;
+    }
+
+    .hero {
+      padding: 100px 5%;
+      text-align: center;
+      background: linear-gradient(135deg, #101a2e, #172c4d);
+    }
+
+    .hero h1 {
+      font-size: 46px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 19px;
+      color: #b8c4d4;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #4f8cff;
+      color: white;
+      padding: 14px 30px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #3a74e0;
+    }
+
+    section {
+      padding: 80px 5%;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 40px;
+      color: #4f8cff;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: #121d33;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #22314f;
+    }
+
+    .card h3 {
+      color: #4f8cff;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #101a2e;
+      text-align: center;
+      padding: 30px 5%;
+      color: #8b98a9;
+    }
+
+    @media (max-width: 700px) {
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      nav a {
+        margin-left: 12px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">SV DEV</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Welcome to SV DEV WEBSITE</h1>
+    <p>
+      Build modern websites, creative digital projects, and AI-powered content
+      with clean design and practical tools.
+    </p>
+    <a href="#services" class="btn">Explore Services</a>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>Responsive websites using HTML, CSS, JavaScript, and modern design principles.</p>
+      </div>
+      <div class="card">
+        <h3>AI Content Creation</h3>
+        <p>Scripts, visuals, thumbnails, and creative assets for YouTube and social media.</p>
+      </div>
+      <div class="card">
+        <h3>Video Editing</h3>
+        <p>Short-form edits, cinematic visuals, and engaging educational video production.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>A responsive landing page built with HTML and CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>An educational YouTube content workflow with AI-assisted visuals.</p>
+      </div>
+      <div class="card">
+        <h3>Project Three</h3>
+        <p>A portfolio website for showcasing creative and technical work.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Email</h3>
+        <p>yourname@example.com</p>
+      </div>
+      <div class="card">
+        <h3>Location</h3>
+        <p>Bengaluru, Karnataka, India</p>
+      </div>
+      <div class="card">
+        <h3>Social</h3>
+        <p>YouTube • Instagram • LinkedIn</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 SV DEV WEBSITE. All rights reserved.</p>
+  </footer>
+</body>
+</html>
